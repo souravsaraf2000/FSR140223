@@ -1,0 +1,19 @@
+#topBar{
+    display: flex;
+}
+
+.formatA{
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 20px;
+    color: black;
+}
+
+#summary{
+    font-size: 18px;
+    color: orange
+}
+
+#details{
+    color: red;
+}
