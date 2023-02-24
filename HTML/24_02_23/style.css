@@ -1,0 +1,52 @@
+/*
+.label{
+    margin-bottom: 4px;
+}
+
+.inputStyling{
+    width: 100%;
+    padding: 5px;
+}
+
+#formDiv{
+    width: 30%;
+    margin: 0 auto; //Works only on block level elements
+    background-color: white;
+    padding: 20px;
+}
+
+#btn{
+    margin-top: 15px;
+}
+*/
+
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
+#signupDiv{
+    width: 35%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.inp{
+    width: 95%;
+}
+
+.inputLabel{
+    margin-bottom: 4px;
+}
+
+#dropdown{
+    width: 95%;
+}
+
+textarea{
+    width: 95%;
+    height: 200px;
+    margin-top: 5px;
+}
