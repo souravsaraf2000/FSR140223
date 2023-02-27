@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form - Additional Elements
+        </title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <form>
+            <label for="colorInput">Enter your favourite color : </label>
+            <input type="color" id="colorInput"/>
+            <br/>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="date">Enter your DoB <span>*</span>: </label>
+                <input type="date" id="date" min="1990-01-01" max="1998-12-31" required/>
+                <br/>
+                <label for="fileInp">Attach your Resume :</label>
+                <input type="file" id="fileInp"/>
+            </fieldset>
+            <br/>
+            <label for="month">Enter your month of joining <span>*</span>: </label>
+            <input type="month" id="month" required/>
+            <br/>
+            <label for="age">Enter Age <span>*</span>: </label>
+            <input type="number" id="age" min="18" max="60" placeholder="Enter age (Range 18-60)" required/>
+            <br>
+            <input type="range"/>
+            <input type="submit" />
+            <input type="reset"/>
+            <input type="search" placeholder="Enter some text"/>
+            <input type="url"/>
+            <br/>
+            <select>
+                <option>---Select Something---</option>
+                <optgroup label="Anime">
+                    <option>
+                        Naruto
+                    </option>
+                    <option>
+                        AOT
+                    </option>
+                    <option>
+                        One Punch Man
+                    </option>
+                </optgroup>
+                <optgroup label="Cars">
+                    <option>
+                        Lamborghini
+                    </option>
+                    <option>
+                        BMW
+                    </option>
+                    <option>
+                        Rolls Royce
+                    </option>
+                </optgroup>
+                <optgroup label="Places">
+                    <option>
+                        Mumbai
+                    </option>
+                    <option>
+                        Kolkata
+                    </option>
+                </optgroup>
+            </select>
+            <input list = "names"/>
+            <datalist id="names">
+                <option value="Akshat">
+                <option value="Arzaqul">
+                <option value="Ashis">
+                <option value="Jaskarn">
+                <option value="Jyothi">
+                <option value="Rohit">
+                <option value="Roni">
+                <option value="Sarthak">
+                <option value="Sujay">
+                <option value="Sourav">
+                <option value="Sri">
+                <option value="Vikrant">
+                <option value="Tuba">
+            </datalist>
+        </form>
+    </body>
+</html>

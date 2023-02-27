@@ -1,4 +1,4 @@
-/*
+
 .label{
     margin-bottom: 4px;
 }
@@ -10,7 +10,7 @@
 
 #formDiv{
     width: 30%;
-    margin: 0 auto; //Works only on block level elements
+    margin: 0 auto; /*Works only on block level elements*/
     background-color: white;
     padding: 20px;
 }
@@ -18,7 +18,7 @@
 #btn{
     margin-top: 15px;
 }
-*/
+
 
 body{
     background-color: lightblue;
