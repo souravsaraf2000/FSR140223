@@ -1,0 +1,55 @@
+#demo{
+    font-size: 36px;
+    background-color: orange;
+}
+
+#heading{
+    text-align: center;
+}
+
+#para{
+    /* font-style: none; */
+    font-size: 28px;
+    font-weight: 600;
+    /* text-decoration: overline; */
+    /* background-color: orange; */
+    text-transform: capitalize;
+}
+
+.paraClass{
+    background-color: cyan;
+}
+
+#istName{
+    font-size: 48px;
+    /* letter-spacing: 1px; */
+    word-spacing: -30px;
+}
+
+#content{
+    line-height: 3;
+    border: 4px solid black;
+    padding: 20px;
+    margin: 20px 30px 25px 35px;
+}
+
+#btn{
+    font-size: 18px;
+    padding: 10px 40px;
+    font-weight: 600;
+    background-color: rgb(52, 187, 232);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+#btn:hover{
+    background-color: #fff;
+    color: rgb(52, 187, 232);
+    cursor: pointer;
+    border: 1px solid  rgb(52, 187, 232);
+}
+
+#container{
+    text-align: center;
+}
