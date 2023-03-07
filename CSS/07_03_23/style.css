@@ -1,0 +1,66 @@
+/* .para{
+    display: inline;
+}
+
+.span1{
+    display: block;
+} */
+
+
+/* .span2{
+    border: 1px solid black;
+    padding: 10px; 
+    display: none;
+    visibility: hidden;
+} */
+
+/* .division{
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    display: inline-block;
+}
+
+.blue{
+    background-color: rgb(0, 179, 255);
+}
+
+.yellow{
+    background-color: yellow;
+} */
+
+/* #blueDiv2{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+} */
+
+/* #yellowDiv1{
+    position: absolute;
+    top: 30px;
+} */
+
+/* .header{
+    padding: 20px;
+    background-color: burlywood;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+} */
+
+/* .header{
+    padding: 20px;
+    background-color: plum;
+    position: sticky;
+    top: 15px;
+    margin: 0;
+} */
+
+#content{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    overflow: auto;
+}
