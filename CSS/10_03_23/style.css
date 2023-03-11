@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, orange,white, green);
+}
+
+h1{
+    width: 400px;
+    background: linear-gradient(to right, blue, purple);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.wrapper{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-image: radial-gradient(circle at bottom left, white, blue);
+}
+
+#para{
+    width: 800px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 180px;
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+}

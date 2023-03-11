@@ -1,0 +1,104 @@
+/* .box{
+    height: 300px;
+    width: 300px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+    position: relative;
+    left: 150px;
+    top: -150px;
+}
+
+.yellow{
+    background-color: yellow;
+    position: relative;
+    left: 300px;
+    top: -300px;
+}
+
+.blue{
+    background-color: blue;
+    position: relative;
+    left: 450px;
+    top: -450px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Sono&family=Tilt+Neon&display=swap');
+
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: 80px auto;
+}
+
+.redBg{
+    width: 55%;
+    height: 450px;
+    background-color: #f93340;
+}
+
+
+.image img{
+    position: relative;
+    left: 50px;
+    top: -410px;
+    width: 550px;
+    margin-bottom: -320px;
+}
+
+.redStamp{
+    width: 80px;
+    height: 10px;
+    background-color: #f93340;
+}
+
+#bestcar{
+    font-family: 'Tilt Neon', cursive;
+    color: #f93340;
+    font-size: 48px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#service{
+    font-family: 'Sono', sans-serif;
+    font-size: 36px;
+    margin-top: 0;
+    letter-spacing: 3px;
+}
+
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+    padding-top: 70px;
+}
+
+.content p{
+    font-family: 'Tilt Neon', cursive;
+    width: 70%;
+    color: rgba(0,0,0,0.7);
+    padding-bottom: 15px;
+}
+
+.btn button{
+    font-family: 'Tilt Neon', cursive;
+    padding: 15px 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-decoration: underline;
+}
