@@ -1,0 +1,130 @@
+/* .wrapper{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: lightblue;
+    transition: transform 5s ease-out, width 10s linear, background-color 3s ease-out 2s;
+    margin: 50px auto;
+    animation: widthPlay 3000ms linear infinite forwards running;
+}
+
+.wrapper:hover{
+    transform: skewX(45deg);
+    width: 500px;
+    background-color: lightcoral;
+}
+
+@keyframes widthPlay{
+    0%{
+        width: 200px;
+        font-size: 16px;
+    }
+    100%{
+        width: 600px;
+        font-size: 48px;
+    }
+} */
+/* body{
+    margin:0;
+    padding: 0;
+}
+.rocketWrapper{
+    background: url("https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rocketImg{
+    text-align: center;
+}
+
+#rocket{
+    height: 200px;
+    width: 150px;
+    position: relative;
+    top: -220px;
+    margin-bottom: -200px;
+    animation: fly 4000ms ease-in infinite forwards running ;
+}
+
+@keyframes fly{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100vh);
+    }
+}
+
+a:link{
+    color: orange;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+#name:focus{
+    background-color: lightblue;
+}
+
+#name:disabled{
+    cursor: not-allowed;
+}
+
+#input2:required{
+    background-color: green;
+}
+
+.container p:nth-child(4){
+    background-color: lightgreen;
+}
+
+.container p:nth-child(2){
+    background-color: pink;
+} */
+
+/* .container::first-line{
+    font-size: 18px;
+    background-color: yellow;
+} */
+
+/* .container::first-letter{
+    font-size: 48px;
+    color: purple;
+} */
+
+/* .container::selection{
+    background-color: yellow;
+    color: green;
+} */
+
+/* p:hover::before{
+    content: ">";
+    font-size: 18px;
+    color: orange;
+    position: relative;
+    top: -15px;
+    left: 20px;
+}
+
+p::after{
+    content: "<";
+    font-size: 18px;
+    color: green;
+    position: relative;
+    top: 15px;
+    right: 20px;
+}
+
+#input::placeholder{
+    color: red;
+    padding: 10px;
+} */
