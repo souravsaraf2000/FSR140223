@@ -1,0 +1,13 @@
+#container{
+    height: 200px;
+    width: 200px;
+}
+
+.color{
+    border: 2px solid green;
+    background-color: rgb(22, 115, 246);
+}
+
+.bgc{
+    color: orange
+}
