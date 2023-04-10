@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px 0;
+}
+
+.heading{
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+#clothing, #accessory{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#accessory{
+    margin-top: 80px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin: 0 auto;
+}
+
+.card{
+    width: 20%;
+    margin-right: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.image{
+    width: 100%;
+}
+
+.info{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.name{
+    font-size: 16px;
+    width: 90%;
+}
+
+.brand{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.6);
+}
+
+.price{
+    color: #4abad1;
+    font-weight: 600px;
+}
+
+.card:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
