@@ -46,14 +46,39 @@
 
 // console.log(interval)
 
-// function deleteItem(id){
-//     // document.getElementById("item"+id).style.display = "none"
-//     document.getElementById("item"+id).remove()
-// }
+let task = document.getElementById("task")
+let btn = document.getElementById("btn")
+let k = 0
+
+function deleteItem(id){
+    document.getElementById(id).remove()
+}
+
+function addItem(item){
+    let li = document.createElement("li")
+    let text = document.createTextNode(item)
+    li.appendChild(text)
+    let button = document.createElement("button")
+    let value = document.createTextNode("Delete")
+    button.appendChild(value)
+    button.id = "button"+k
+    li.id = "item"+k
+    button.onclick = function(){
+        deleteItem(li.id)
+    }
+    li.appendChild(button)
+    ol.appendChild(li)
+}
 
 // let todo = ["Practice JS", "Revise Concepts", "Do Hands-on", "Prepare Notes"]
 
-// let ol = document.createElement("ol")
+let ol = document.createElement("ol")
+
+btn.addEventListener("click", function(){
+    addItem(task.value)
+    task.value = ""
+    k++
+})  
 
 // for(let i=0;i<todo.length;i++){
 //     let li = document.createElement("li")
@@ -71,42 +96,59 @@
 //     ol.appendChild(li)
 // }
 
-// document.body.appendChild(ol)
+document.body.appendChild(ol)
 
-let wrapper = document.getElementById("wrapper")
+// let wrapper = document.getElementById("wrapper")
 
-let arr=[
-    {
-        name: "Ashish",
-        age: 25,
-        place: "xyz"
-    },
-    {
-        name: "Pratik",
-        age: 30,
-        place: "xyz"
-    },
-    {
-        name: "Sourav",
-        age: 22,
-        place: "xyz"
-    }
-]
+// let arr=[
+//     {
+//         name: "Ashish",
+//         age: 25,
+//         place: "xyz"
+//     },
+//     {
+//         name: "Pratik",
+//         age: 30,
+//         place: "xyz"
+//     },
+//     {
+//         name: "Sourav",
+//         age: 22,
+//         place: "xyz"
+//     }
+// ]
 
-for(let i=0;i<arr.length;i++){
-    let div = 
-    `
-        <div class="bgc">
-            <p>
-                Name is : ${arr[i].name}
-            </p>
-            <p>
-                Age is : ${arr[i].age}
-            </p>
-            <p>
-                Place is : ${arr[i].place}
-            </p>
-        </div>
-    `
-    wrapper.innerHTML += div
-}
+// for(let i=0;i<arr.length;i++){
+//     let div = 
+//     `
+//         <div class="bgc">
+//             <p>
+//                 Name is : ${arr[i].name}
+//             </p>
+//             <p>
+//                 Age is : ${arr[i].age}
+//             </p>
+//             <p>
+//                 Place is : ${arr[i].place}
+//             </p>
+//         </div>
+//     `
+//     wrapper.innerHTML += div
+// }
+
+// let colours = ["cyan", "orange", "magenta", "purple", "yellow", "lightblue", "lightcoral", "gray", "green", "lightgreen", "pink"]
+
+// let wrapper = document.getElementById("wrapper")
+// let h1 = document.getElementById("val")
+// let cnt = 10
+// let index = 0
+
+// let interval = setInterval(function(){
+//     h1.innerText = cnt
+//     wrapper.style.backgroundColor = colours[index]
+//     cnt -= 1
+//     index++
+//     if(cnt<0){
+//         clearInterval(interval)
+//     }
+// }, 1000)
