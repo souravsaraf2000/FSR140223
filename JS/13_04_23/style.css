@@ -1,0 +1,26 @@
+#post{
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 8px auto;
+}
+
+#title{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#progress{
+    width: 200px;
+    margin: 0 auto
+}
+
+/* #bar{
+    height: 15px;
+} */
+
+#progress img{
+    width: 100%;
+}
