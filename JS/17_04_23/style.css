@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#app{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+
+#left{
+    width: 38%;
+}
+
+#right{
+    width: 60%;
+}
+
+.leftPreview{
+    width: 100%;
+}
+
+#name{
+    margin-top: 0;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+#brand, #price, #desc, #preview{
+    font-size: 22px;
+    letter-spacing: 1.2px;
+}
+
+#description{
+    font-size: 16px;
+    color: rgba(0,0,0,0.6)
+}
+
+#previewDiv{
+    display: flex;
+}
+
+#previewDiv img{
+    height: 130px;
+    width: 100px;
+}
+
+.image{
+    padding: 5px;
+    margin: 5px;
+}
+
+.active{
+    border: 2px solid #009688;
+    border-radius: 4px;
+}
+#value{
+    color: #009688;
+    font-weight: 600;
+}
+
+#btn{
+    background-color: #009688;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border-radius: 4px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+#btn:hover{
+    box-shadow: 0 0 12px rgba(0,0,0,0.8);
+}
