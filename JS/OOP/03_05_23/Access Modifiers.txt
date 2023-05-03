@@ -1,0 +1,8 @@
+Access Modifiers:
+
+1. Public - Data Member is accessible everywhere
+2. Private - Data Member is only available inside the class
+3. Protected - Data Member is available inside the class and its children only, not everywhere!!
+
+
+When you inherit a class, you inherit all of its PUBLIC Data Member and ALL Member functions. Private members are NEVER inherited!
