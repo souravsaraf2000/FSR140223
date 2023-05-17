@@ -1,0 +1,7 @@
+Please create a Next.js Project using "npx create-next-app app-name" and once the app is Ready, please replace the Pages folder with the folder provided here.
+
+Then execute the command "npm run dev" in the terminal.
+
+Thanks.
+
+Happy Learning :)
