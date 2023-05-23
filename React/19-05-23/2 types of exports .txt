@@ -1,0 +1,4 @@
+2 types of exports :
+
+1. Default Export ---> We can have only 1 default exports per .js file
+2. Named Export ---> We can have as many named exports as we want
