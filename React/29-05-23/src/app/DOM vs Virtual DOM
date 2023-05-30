@@ -1,0 +1,7 @@
+When we update any node in the DOM i.e the real browser DOM, then the entire page is reloaded which makes our application slower.
+
+Whereas Virtual DOM is nothing but the exact same copy of browser DOM maintained by React and whenever there is any update in the DOM, the update happens in the virtual DOM.
+
+Once the updation is done, the virtual DOM is compared with the real browser DOM and instead of reloading the entire page, only the parts of DOM which were updated gets reloaded.
+
+This prevents the reloading of entire page and improvises performance of the application.

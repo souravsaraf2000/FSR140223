@@ -1,0 +1,25 @@
+5 HTTP Methods:
+
+1. GET - To get some data from backend
+
+2. POST - To create a new entry in the database
+
+3. PATCH - Updation - Only certain fields
+
+4. PUT - Updation - All values
+
+5. DELETE - Delete
+
+
+If we are directly dealing with database, there are majorly 2 disadvantages:
+
+1. I/O in database is slow
+2. DB maynot always have validation criteria -> Inconsistent Data will be stored in DB
+
+
+To solve the above issues Node.js servers play a very important role.
+
+Node.js Servers (Express.js + MongoDB + Node.js).
+
+Server validates any information before inserting it in into the database.
+Server is also responsible to perform CRUD operations on DB and provide suitable response on FrontEnd.

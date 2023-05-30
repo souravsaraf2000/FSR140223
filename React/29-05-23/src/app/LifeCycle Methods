@@ -1,0 +1,59 @@
+1. Creation Life Cycle
+
+a. Component mounted on the DOM
+b. All the child components (if any) are mounted
+c. componentDidMount() is called
+
+componentDidMount() was a part of React class based components and belonged to the 
+React.Component class. But in functional component, we don't have a cDM().
+
+In functional components, we use useEffect() hook to implement lifecycle methods.
+
+useEffect(callback function, dependency list)
+
+useEffect default behaviour -> It executes everytime a component is mounted on DOM or updation happens in the component.
+
+CDM equivalent of useEffect() => 
+
+useEffect(()=>{
+    // some code
+}, [])
+
+Empty dependency list signifies that the useEffect doesn't depends on any variable and executes only
+once when the component is mounted on the DOM.
+
+2. Updation Life Cycle
+
+a. shouldComponentUpdate() is called. If it returns true, then the updation LC happens otherwise not.
+b. If sCU() returns true, the component is re-rendered and its child components are also re-rendered.
+c. componentDidUpdate() is called.
+
+shouldComponentUpdate() and componentDidUpdate() were part of React class based components and belonged to the React.Component class. But in functional component, we don't have a sCU() or cDU().
+
+In functional components, to implement cDU(), we pass a variable in the dependency list.
+
+Eg: 
+
+useEffect(()=>{
+    // some code
+}, [count])
+
+You can also pass multiple variables in the dependency list.
+
+If any of the variables are updated i.e the value of the variables change, only then the useEffect hook is executed which means that by writing a componentDidUpdate(), you are also writing the shouldComponentUpdate() by default.
+
+3. Deletion Lifecycle
+
+Once the component is about to be unmounted from the DOM, this lifecycle comes into picture.
+
+componentWillUnmount() was a part of React class based components and belonged to the React.Component class. But in functional component, we don't have a componentWillUnmount().
+
+componentWillUnmount() equivalent -
+
+useEffect(()=>{
+    // some code
+
+    return ()=>{
+        // This method is called when the component is about to be unmounted!
+    }
+}, [count])
