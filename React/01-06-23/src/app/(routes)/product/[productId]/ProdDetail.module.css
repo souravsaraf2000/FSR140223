@@ -1,0 +1,12 @@
+.container{
+    width: 40%;
+}
+
+.oldPrice{
+    text-decoration: line-through;
+}
+
+.smallImg img{
+    height: 100px;
+    width: 60px;
+}
